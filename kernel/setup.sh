@@ -41,7 +41,7 @@ setup_kernelsu() {
     echo "[+] Setting up KernelSU..."
     # Clone the repository
     if [ ! -d "$KERNEL_ROOT/KernelSU" ]; then
-        git clone https://github.com/ReSukiSU/ReSukiSU KernelSU
+        git clone https://github.com/whitebearovo/ReSukiSU KernelSU
         echo "[+] Repository cloned."
     fi
     cd "$KERNEL_ROOT/KernelSU"
